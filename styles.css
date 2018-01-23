@@ -71,14 +71,28 @@ p {
 
 @media (min-width: 999px) {
   .mainHeader {
-    width: 100%;
+    width: 75%;
   }
   .gameRules {
-    width: 100%;
+    width: 75%;
   }
 
   .getStarted {
-    width: 100%;
+    width: 75%;
+  }
+
+}
+
+@media (min-width: 1299px) {
+  .mainHeader {
+    width: 55%;
+  }
+  .gameRules {
+    width: 55%;
+  }
+
+  .getStarted {
+    width: 55%;
   }
 
 }
